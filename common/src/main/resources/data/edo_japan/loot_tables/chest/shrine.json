@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        { "type": "item", "name": "minecraft:experience_bottle", "weight": 1 },
+        { "type": "item", "name": "minecraft:bell", "weight": 1 },
+        { "type": "item", "name": "minecraft:lantern", "weight": 1 },
+        { "type": "item", "name": "minecraft:soul_lantern", "weight": 1 },
+        { "type": "item", "name": "minecraft:paper", "weight": 1 },
+        { "type": "item", "name": "minecraft:book", "weight": 1 },
+        { "type": "item", "name": "minecraft:bookshelf", "weight": 1 },
+        { "type": "item", "name": "minecraft:written_book", "weight": 1 },
+
+        { "type": "item", "name": "dawnoftimebuilder:stone_lantern", "weight": 1 },
+
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:mending\",lvl:1}]}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:looting\",lvl:3}]}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3}]}"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5}]}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:silk_touch\",lvl:1}]}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:loyalty\",lvl:3}]}"
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"minecraft:infinity\",lvl:1}]}"
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+summon minecraft:wither_skeleton ~ ~ ~ {Tags:["raijin_wither"],PersistenceRequired:1b,ArmorItems:[{id:"armoroftheages:raijin_armor_feet",Count:1b},{id:"armoroftheages:raijin_armor_legs",Count:1b},{id:"armoroftheages:raijin_armor_chest",Count:1b},{id:"armoroftheages:raijin_armor_head",Count:1b}],HandItems:[{id:"minecraft:iron_sword",Count:1b},{}]}

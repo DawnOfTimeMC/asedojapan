@@ -1,0 +1,23 @@
+{
+  "structures": [
+    {
+      "structure": "edo_japan:small_shrine_v1",
+      "weight": 1
+    },
+    {
+      "structure": "edo_japan:small_shrine_v2",
+      "weight": 1
+    },
+    {
+      "structure": "edo_japan:small_shrine_v3",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 34,
+    "separation": 8,
+    "spread_type": "triangular",
+    "salt": 51179220
+  }
+}

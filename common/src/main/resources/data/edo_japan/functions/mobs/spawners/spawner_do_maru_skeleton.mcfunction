@@ -1,0 +1,1 @@
+setblock ~ ~ ~ minecraft:spawner{SpawnData:{entity:{id:"armor_stand",Tags:["do_maru_trigger"]}},SpawnCount:4,MaxNearbyEntities:6,SpawnRange:4,RequiredPlayerRange:16,Delay:20,MinSpawnDelay:200,MaxSpawnDelay:800} replace
