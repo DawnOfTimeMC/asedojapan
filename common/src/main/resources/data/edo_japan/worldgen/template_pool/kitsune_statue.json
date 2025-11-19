@@ -1,5 +1,5 @@
 {
-    "name": "edo_japan:mini_cemetery",
+    "name": "edo_japan:kitsune_statue",
     "fallback": "minecraft:empty",
     "elements": [
         {
@@ -7,7 +7,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
-                "location": "edo_japan:mini_cemetery"
+                "location": "edo_japan:kitsune_statue"
             },
             "weight": 1
         }

@@ -4,16 +4,16 @@
       "structure": "edo_japan:samurai_mini_fort",
       "weight": 1
     },
-    {
-      "structure": "edo_japan:mini_castle",
-      "weight": 1
-    }
+      {
+          "structure": "edo_japan:mini_castle",
+          "weight": 1
+      }
   ],
   "placement": {
     "type": "minecraft:random_spread",
     "spacing": 34,
     "separation": 8,
     "spread_type": "triangular",
-    "salt": 9220
+    "salt": 39220
   }
 }

@@ -1,17 +1,25 @@
 {
   "structures": [
     {
-      "structure": "edo_japan:small_shrine_v1",
+      "structure": "edo_japan:buddha_statue",
       "weight": 1
     },
-    {
-      "structure": "edo_japan:small_shrine_v2",
-      "weight": 1
-    },
-    {
-      "structure": "edo_japan:small_shrine_v3",
-      "weight": 1
-    }
+      {
+          "structure": "edo_japan:frog_statue",
+          "weight": 1
+      },
+      {
+          "structure": "edo_japan:illager_statue",
+          "weight": 1
+      },
+      {
+          "structure": "edo_japan:kitsune_statue",
+          "weight": 1
+      },
+      {
+          "structure": "edo_japan:villager_statue",
+          "weight": 1
+      }
   ],
   "placement": {
     "type": "minecraft:random_spread",

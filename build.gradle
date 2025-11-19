@@ -20,7 +20,7 @@ configure([project(":fabric"), project(":forge")]) {
         type = STABLE
 
         curseforge {
-            projectId = ""
+            projectId = "1377964"
             accessToken = providers.environmentVariable("CURSEFORGE_API_KEY")
             minecraftVersions.add(project.property("minecraft_version"))
 
@@ -28,6 +28,9 @@ configure([project(":fabric"), project(":forge")]) {
 
             requires("dawn-of-time")
             requires("armor-of-the-ages")
+            requires("reddens-stone-lanterns")
+            requires("fusion-connected-textures")
+            requires("yacl")
 
             /* shared dependencies found on curseforge
             requires("slug")
@@ -38,12 +41,16 @@ configure([project(":fabric"), project(":forge")]) {
         }
 
         modrinth {
-            projectId = ""
+            projectId = "XNphIeO1"
             accessToken = providers.environmentVariable("MODRINTH_API_KEY")
             minecraftVersions.add(project.property("minecraft_version"))
 
             requires("dawn-of-time")
             requires("armor-of-the-ages")
+            requires("reddens-stone-lanterns")
+            requires("fusion-connected-textures")
+            requires("yacl")
+
 
             /* shared dependencies found on modrinth
             requires { // specify either id or slug, but not both at once
