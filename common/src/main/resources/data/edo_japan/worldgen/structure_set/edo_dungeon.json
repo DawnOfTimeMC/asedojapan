@@ -2,22 +2,22 @@
   "structures": [
     {
       "structure": "edo_japan:mini_fort",
-      "weight": 1
+      "weight": 3
     },
       {
           "structure": "edo_japan:mini_cemetary",
-          "weight": 1
+          "weight": 3
       },
       {
           "structure": "edo_japan:kofun",
-          "weight": 1
+          "weight": 3
       }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 34,
-    "separation": 8,
+    "spacing": 100,
+    "separation": 10,
     "spread_type": "triangular",
-    "salt": 51920
+    "salt": 5961920
   }
 }

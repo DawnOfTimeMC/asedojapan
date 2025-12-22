@@ -2,33 +2,33 @@
   "structures": [
       {
           "structure": "edo_japan:small_shrine_v1",
-          "weight": 1
+          "weight": 5
       },
       {
           "structure": "edo_japan:small_shrine_v2",
-          "weight": 1
+          "weight": 5
       },
       {
           "structure": "edo_japan:small_shrine_v3",
-          "weight": 1
+          "weight": 5
       },
       {
           "structure": "edo_japan:small_shrine_v4",
-          "weight": 1
+          "weight": 5
       },
       {
           "structure": "edo_japan:small_shrine_v5",
-          "weight": 1
+          "weight": 5
       },
       {
           "structure": "edo_japan:small_shrine_v6",
-          "weight": 1
+          "weight": 5
       }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 34,
-    "separation": 8,
+    "spacing": 170,
+    "separation": 12,
     "spread_type": "triangular",
     "salt": 78519220
   }
