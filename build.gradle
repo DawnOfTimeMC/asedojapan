@@ -1,6 +1,6 @@
 plugins {
-    id 'fabric-loom' version '1.11-SNAPSHOT' apply(false)
-    id 'net.neoforged.moddev.legacyforge' version '2.0.106' apply(false)
+    id 'fabric-loom' version '1.10.2' apply false
+    id 'net.neoforged.moddev' version '2.0.105' apply false
     id "me.modmuss50.mod-publish-plugin" version "1.1.0" apply(false)
 }
 
@@ -12,7 +12,7 @@ def patchNoteProvider = providers.provider {
     file.text
 }
 
-configure([project(":fabric"), project(":forge")]) {
+configure([project(":fabric"), project(":neoforge")]) {
     apply plugin: 'me.modmuss50.mod-publish-plugin'
 
     publishMods {

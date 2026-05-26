@@ -1,6 +1,6 @@
 {
     "schemaVersion": 1,
-    "id": "mod_id",
+    "id": "asedojapan",
     "version": "${version}",
     "name": "${mod_name}",
     "description": "${description}",
@@ -27,12 +27,7 @@
         "fabricloader": ">=0.14",
         "fabric": "*",
         "minecraft": "${minecraft_version}",
-        "java": ">=17",
-        "dawnoftimebuilder": ">=1.5.13",
-        "armoroftheages": ">=1.3.5"
-    },
-    "suggests": {
-        "another-mod": "*"
+        "java": ">=21"
     }
 }
   
